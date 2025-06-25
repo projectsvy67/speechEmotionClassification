@@ -124,9 +124,9 @@ Upload a .wav file to get real-time emotion prediction. Model supports both spee
 ## Testing the Model with a Script
 
 Test model with a custom .wav file:
-
+(It should be present in the same directory and path should be clearly entered)
 bash
-    python test_script.py path/to/audio.wav
+    python test.py
 
 
 ## Requirements
