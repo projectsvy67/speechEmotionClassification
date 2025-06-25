@@ -67,3 +67,22 @@ The model's performance was evaluated using accuracy on the training and validat
     - The fluctuation in validation accuracy while training accuracy remained high suggests some degree of overfitting, which is common in deep learning models. Techniques like dropout were used to mitigate this[1].
 
 For a more in-depth evaluation, metrics such as a **Confusion Matrix** and a **Classification Report** (including precision, recall, and F1-score for each emotion) would be beneficial.
+
+**Classification Report**:
+              precision    recall  f1-score   support
+
+       angry       0.77      0.87      0.82        75
+        calm       0.85      0.91      0.88        75
+     disgust       0.75      0.77      0.76        39
+     fearful       0.79      0.67      0.72        75
+       happy       0.90      0.81      0.85        75
+     neutral       0.86      0.82      0.84        38
+         sad       0.68      0.72      0.70        75
+   surprised       0.82      0.85      0.84        39
+
+    accuracy                           0.80       491
+   macro avg       0.80      0.80      0.80       491
+weighted avg       0.80      0.80      0.80       491
+
+**Confusion Matrix**
+![alt text](image.png)
