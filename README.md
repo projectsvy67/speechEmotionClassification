@@ -135,8 +135,3 @@ Install dependencies using:
 
 bash
     pip install -r requirements.txt
-
-
-## Demo Video
-
-    A 2-minute video demonstration of the web app usage is included in demo_video.mp4.
