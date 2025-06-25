@@ -89,3 +89,6 @@ For a more in-depth evaluation, metrics such as a **Confusion Matrix** and a **C
    macro avg       0.80      0.80      0.80       491
 weighted avg       0.80      0.80      0.80       491
 ```
+
+**Streamlit-web app**
+https://speechemotionclassification-ghgqjlph5gxjcsfuyjwxxv.streamlit.app/
