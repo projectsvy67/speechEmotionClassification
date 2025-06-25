@@ -88,3 +88,4 @@ For a more in-depth evaluation, metrics such as a **Confusion Matrix** and a **C
     accuracy                           0.80       491
    macro avg       0.80      0.80      0.80       491
 weighted avg       0.80      0.80      0.80       491
+```
