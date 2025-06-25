@@ -89,6 +89,53 @@ For a more in-depth evaluation, metrics such as a **Confusion Matrix** and a **C
    macro avg       0.80      0.80      0.80       491
 weighted avg       0.80      0.80      0.80       491
 ```
+After dropping the class "sad" from the dataset I got much better results
 
-**Streamlit-web app**
-https://speechemotionclassification-ghgqjlph5gxjcsfuyjwxxv.streamlit.app/
+```Python
+#Classification Report:
+              precision    recall  f1-score   support
+
+       angry       0.92      0.88      0.90        75
+        calm       0.91      0.92      0.91        75
+     disgust       0.75      0.92      0.83        39
+     fearful       0.92      0.88      0.90        75
+       happy       0.85      0.88      0.86        75
+     neutral       0.92      0.89      0.91        38
+   surprised       0.88      0.74      0.81        39
+
+    accuracy                           0.88       416
+   macro avg       0.88      0.87      0.87       416
+weighted avg       0.88      0.88      0.88       416
+```
+## Confusion-Matrix
+![alt text](image-1.png)
+
+## Streamlit Web App
+
+Launch the web app with: https://speechemotionclassification-ghgqjlph5gxjcsfuyjwxxv.streamlit.app/
+
+bash
+streamlit run app.py
+
+
+Upload a .wav file to get real-time emotion prediction. Model supports both speech and song clips from RAVDESS
+
+## Testing the Model with a Script
+
+Test model with a custom .wav file:
+
+bash
+    python test_script.py path/to/audio.wav
+
+
+## Requirements
+
+Install dependencies using:
+
+bash
+    pip install -r requirements.txt
+
+
+## Demo Video
+
+    A 2-minute video demonstration of the web app usage is included in demo_video.mp4.
