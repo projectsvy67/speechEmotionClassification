@@ -68,7 +68,12 @@ The model's performance was evaluated using accuracy on the training and validat
 
 For a more in-depth evaluation, metrics such as a **Confusion Matrix** and a **Classification Report** (including precision, recall, and F1-score for each emotion) would be beneficial.
 
-**Classification Report**:
+
+**Confusion Matrix**
+![alt text](image.png)
+
+```Python
+#Classification Report:
               precision    recall  f1-score   support
 
        angry       0.77      0.87      0.82        75
@@ -83,6 +88,3 @@ For a more in-depth evaluation, metrics such as a **Confusion Matrix** and a **C
     accuracy                           0.80       491
    macro avg       0.80      0.80      0.80       491
 weighted avg       0.80      0.80      0.80       491
-
-**Confusion Matrix**
-![alt text](image.png)
